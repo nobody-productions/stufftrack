@@ -10,7 +10,7 @@ Git, Docker and Docker Compose
 git clone https://github.com/nobody-productions/stufftrack &&
 cd stufftrack &&
 git clone https://github.com/nobody-productions/stufftrack-frontend &&
-git clone https://github.com/nobody-productions/stufftrack-backend &&
+git clone https://github.com/nobody-productions/stufftrack-backend
 ```
 
 2. Then, run
