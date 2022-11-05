@@ -1,0 +1,39 @@
+
+version: '3.8'
+services:
+  backend:
+    container_name: stufftrack-backend
+    build: stufftrack-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - stufftrack-backend/.env
+    links:
+      - "db:database"
+    depends_on:
+      - db
+
+  frontend:
+    container_name: stufftrack-frontend
+    build: stufftrack-frontend
+    ports:
+      - "8080:8080"
+    links:
+      - "db:database"
+    depends_on:
+      - backend
+
+
+  db:
+    container_name: stufftrack-database
+    image: postgres:13.0-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    env_file:
+      - stufftrack-backend/.env
+    
+
+volumes:
+  postgres_data:
+  certs:
+  ssl:
