@@ -47,10 +47,12 @@ docker compose up
 Simply signup for a new account (if no error succeed it will redirects you to a login page) or login with default credentials.
 
 ## Default credentials
-- damiano@gmail.com:BackendistaSenzaSosta11
-- lorenzo@gmail.com:TelefoniChePassione!
-- misterkrub@gmail.com:INeedADollar$!
-- spongebob@gmail.com:Gary4832930382749274
-- patrickstella@gmail.com:Blargh
-- squidditentacolo@gmail.com:Clarinetto63
-- theshadow2030@gmail.com:SplatoonIsMyLife
+```
+damiano@gmail.com:BackendistaSenzaSosta11
+lorenzo@gmail.com:TelefoniChePassione!
+misterkrub@gmail.com:INeedADollar$!
+spongebob@gmail.com:Gary4832930382749274
+patrickstella@gmail.com:Blargh
+squidditentacolo@gmail.com:Clarinetto63
+theshadow2030@gmail.com:SplatoonIsMyLife
+```
